@@ -85,8 +85,174 @@ mark.hit{background:#ffe066;color:#111;border-radius:2px}mark.hit.cur{background
 </style></head><body>
 <header class="top"><div class="bar"><div class="brand"><img class="mono" src="data:image/png;base64,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" alt="SERENE CLINIC 로고"><div class="bt"><h1>세린 일본 3채널 11월 발행 콘텐츠 · 인스타그램 · X · note</h1><div class="meta">SERENE CLINIC · 일본 · 2026-11-09 ~ 2026-11-30 · 병원 공유본 · 업데이트 2026-11-09</div></div></div>
 <div class="tools"><input id="q" type="search" placeholder="현재 탭 검색 (Enter)" aria-label="현재 탭에서 검색"><span class="cnt" id="cnt"></span><button class="ib" id="th" type="button">밝게/어둡게</button><button class="ib" id="pr" type="button">인쇄</button></div></div>
-<nav class="tabs" role="tablist"><button class="tab" role="tab" data-k="overview" aria-controls="pane-overview">한눈에 보기</button><button class="tab" role="tab" data-k="sch" aria-controls="pane-sch">11월 발행 일정</button><button class="tab" role="tab" data-k="req" aria-controls="pane-req">병원 확인 요청</button><button class="tab" role="tab" data-k="pv" aria-controls="pane-pv">콘텐츠 미리보기</button></nav></header>
-<section class="pane" id="pane-overview" data-k="overview" role="tabpanel"><nav class="toc" aria-label="목차"><details open><summary>목차</summary><ul><li><a href="#ov-ch">발행 물량</a></li><li><a href="#ov-ms">주요 일정</a></li><li><a href="#ov-todo">지금 할 일</a></li></ul></details></nav><article class="doc"><h1>한눈에 보기</h1><p class="lead">11/9부터 11/30까지 일본 고객 대상으로 인스타그램 피드 8편, 릴스 6편, X 12개, note 3편을 게시합니다. 11월 주제는 「처음 가기 전의 6가지 &quot;모르겠다&quot;」입니다. 요금·언어·일정·내원 당일·클리닉 고르는 법·귀국 후 연락을 하나씩 풀어 LINE 상담으로 이어지게 합니다. 게시 문구 확정을 위해 「병원 확인 요청」 탭의 항목을 기한 안에 확인 부탁드립니다.</p><h2 id="ov-ch">발행 물량</h2><div class="chs"><div class="ch"><b>8</b><span>편</span><div>피드</div><small>화·목 20:00</small></div><div class="ch"><b>6</b><span>편</span><div>릴스</div><small>수·토 20:00 · 기존 영상 재편집</small></div><div class="ch"><b>8</b><span>세트</span><div>스토리</div><small>피드마다 예고·공유 + 특별 안내 4건</small></div><div class="ch"><b>12</b><span>개</span><div>X</div><small>단독 4 · 피드 동반 8</small></div><div class="ch"><b>3</b><span>편</span><div>note</div><small>12:00</small></div></div><h2 id="ov-ms">주요 일정</h2><ol class="tl"><li><time>11/9</time><div><b>발행 시작 · C24</b><span>6가지 「모르겠다」 소개</span></div></li><li><time>11/11</time><div><b>확인 요청 ①</b><span>11월 요금 기준·진찰료, 원내 사진 사용 범위</span></div></li><li><time>11/12</time><div><b>확인 요청 ②</b><span>영상 출연·활용 동의 3건, 11월 첫방문 조건</span></div></li><li><time>11/13</time><div><b>확인 요청 ③</b><span>3連休·연말연시 진료일, 당일 일본어 응대·순서·여권, 귀국 후 응대</span></div></li><li><time>11/17~19</time><div><b>3連休 전 안내</b><span>C26 언어 · 3連休 안내 스토리 · C27 내원 당일</span></div></li><li><time>11/19</time><div><b>수능일</b><span>내원 예약자 이동 시간 안내</span></div></li><li><time>11/21~23</time><div><b>일본 3連休</b><span>11월 유일한 연휴</span></div></li><li><time>11/26</time><div><b>연말연시 진료일 안내</b><span>스토리</span></div></li><li><time>11/30</time><div><b>C30 자주 듣는 질문</b><span>11월 마무리</span></div></li></ol><h2 id="ov-todo">지금 할 일</h2><ol class="todo"><li>11/11까지: 11월 요금 기준·진찰료 별도 여부, 원내 사진 SNS 사용 범위 확인</li><li>11/12까지: SHORI·원장·부원장 영상의 SNS 활용 동의, 11월 첫방문 조건 확인</li><li>11/13까지: 3連休·연말연시 진료일, 당일 일본어 응대·순서·여권, 귀국 후 LINE 응대 확인</li></ol></article></section><section class="pane" id="pane-sch" data-k="sch" role="tabpanel"><nav class="toc" aria-label="목차"><details open><summary>목차</summary><ul>
+<nav class="tabs" role="tablist"><button class="tab" role="tab" data-k="overview" aria-controls="pane-overview">한눈에 보기</button><button class="tab" role="tab" data-k="goal" aria-controls="pane-goal">목적·목표</button><button class="tab" role="tab" data-k="sch" aria-controls="pane-sch">11월 발행 일정</button><button class="tab" role="tab" data-k="req" aria-controls="pane-req">병원 확인 요청</button><button class="tab" role="tab" data-k="pv" aria-controls="pane-pv">콘텐츠 미리보기</button></nav></header>
+<section class="pane" id="pane-overview" data-k="overview" role="tabpanel"><nav class="toc" aria-label="목차"><details open><summary>목차</summary><ul><li><a href="#ov-kpi">목표 KPI</a></li><li><a href="#ov-ch">발행 물량</a></li><li><a href="#ov-ms">주요 일정</a></li><li><a href="#ov-todo">지금 할 일</a></li></ul></details></nav><article class="doc"><h1>한눈에 보기</h1><p class="lead">11/9부터 11/30까지 일본 고객 대상으로 인스타그램 피드 8편, 릴스 6편, X 12개, note 3편을 게시합니다. 11월 목표는 예약·시술 최소 20건(문의 67건 × 전환율 30%)입니다. 11월 주제는 「처음 가기 전의 6가지 &quot;모르겠다&quot;」입니다. 요금·언어·일정·내원 당일·클리닉 고르는 법·귀국 후 연락을 하나씩 풀어 LINE 상담으로 이어지게 합니다. 게시 문구 확정을 위해 「병원 확인 요청」 탭의 항목을 기한 안에 확인 부탁드립니다.</p><h2 id="ov-kpi">목표 KPI</h2><div class="cards"><div class="card"><div class="c-top"><span class="c-label">예약·시술</span><span class="lv lv-r">결과</span></div><div class="c-val">20건<small>최소</small></div><div class="c-base">문의 67건 × 전환율 30%</div></div><div class="card"><div class="c-top"><span class="c-label">일본어 LINE 문의</span><span class="lv lv-r">결과</span></div><div class="c-val">67건<small>이상</small></div><div class="c-base">병원 CS 기록</div></div><div class="card"><div class="c-top"><span class="c-label">문의→예약 전환율</span><span class="lv lv-r">결과</span></div><div class="c-val">30%<small>이상</small></div><div class="c-base">예약 ÷ 문의</div></div><div class="card"><div class="c-top"><span class="c-label">유입경로 기록률</span><span class="lv lv-r">결과</span></div><div class="c-val">70%<small>이상</small></div><div class="c-base">문의마다 유입경로 기록</div></div><div class="card"><div class="c-top"><span class="c-label">콘텐츠 경유 LINE 문의</span><span class="lv lv-p">과정</span></div><div class="c-val">10건<small>이상</small></div><div class="c-base">콘텐츠 링크로 측정</div></div><div class="card"><div class="c-top"><span class="c-label">고객 질문 모으기</span><span class="lv lv-p">과정</span></div><div class="c-val">12건<small>11/25까지</small></div><div class="c-base">C30 「자주 듣는 질문」 재료</div></div></div><h2 id="ov-ch">발행 물량</h2><div class="chs"><div class="ch"><b>8</b><span>편</span><div>피드</div><small>화·목 20:00</small></div><div class="ch"><b>6</b><span>편</span><div>릴스</div><small>수·토 20:00 · 기존 영상 재편집</small></div><div class="ch"><b>8</b><span>세트</span><div>스토리</div><small>피드마다 예고·공유 + 특별 안내 4건</small></div><div class="ch"><b>12</b><span>개</span><div>X</div><small>단독 4 · 피드 동반 8</small></div><div class="ch"><b>3</b><span>편</span><div>note</div><small>12:00</small></div></div><h2 id="ov-ms">주요 일정</h2><ol class="tl"><li><time>11/9</time><div><b>발행 시작 · C24</b><span>6가지 「모르겠다」 소개</span></div></li><li><time>11/11</time><div><b>확인 요청 ①</b><span>11월 요금 기준·진찰료, 원내 사진 사용 범위</span></div></li><li><time>11/12</time><div><b>확인 요청 ②</b><span>영상 출연·활용 동의 3건, 11월 첫방문 조건</span></div></li><li><time>11/13</time><div><b>확인 요청 ③</b><span>3連休·연말연시 진료일, 당일 일본어 응대·순서·여권, 귀국 후 응대</span></div></li><li><time>11/17~19</time><div><b>3連休 전 안내</b><span>C26 언어 · 3連休 안내 스토리 · C27 내원 당일</span></div></li><li><time>11/19</time><div><b>수능일</b><span>내원 예약자 이동 시간 안내</span></div></li><li><time>11/21~23</time><div><b>일본 3連休</b><span>11월 유일한 연휴</span></div></li><li><time>11/26</time><div><b>연말연시 진료일 안내</b><span>스토리</span></div></li><li><time>11/30</time><div><b>C30 자주 듣는 질문</b><span>11월 마무리</span></div></li></ol><h2 id="ov-todo">지금 할 일</h2><ol class="todo"><li>11/11까지: 11월 요금 기준·진찰료 별도 여부, 원내 사진 SNS 사용 범위 확인</li><li>11/12까지: SHORI·원장·부원장 영상의 SNS 활용 동의, 11월 첫방문 조건 확인</li><li>11/13까지: 3連休·연말연시 진료일, 당일 일본어 응대·순서·여권, 귀국 후 LINE 응대 확인</li></ol></article></section><section class="pane" id="pane-goal" data-k="goal" role="tabpanel"><nav class="toc" aria-label="목차"><details open><summary>목차</summary><ul>
+<li><a href="#goal-월-목적과-목표" id="goal-toc-월-목적과-목표">11월
+목적과 목표</a>
+<ul>
+<li><a href="#goal-목적" id="goal-toc-목적">1. 목적</a></li>
+<li><a href="#goal-목표" id="goal-toc-목표">2. 목표</a>
+<ul>
+<li><a href="#goal-결과-목표-11월-말-판단"
+id="goal-toc-결과-목표-11월-말-판단">2.1 결과 목표 (11월 말
+판단)</a></li>
+<li><a href="#goal-콘텐츠-목표-매주-확인"
+id="goal-toc-콘텐츠-목표-매주-확인">2.2 콘텐츠 목표 (매주 확인)</a></li>
+</ul></li>
+<li><a href="#goal-병원-cs가-함께-해-주실-일"
+id="goal-toc-병원-cs가-함께-해-주실-일">3. 병원 CS가 함께 해 주실
+일</a></li>
+</ul></li>
+</ul></details></nav><article class="doc"><h1 id="goal-월-목적과-목표">11월 목적과 목표</h1>
+<blockquote>
+<p>한 줄 결론: 11월 목표는 <strong>예약·시술 최소 20건</strong>입니다.
+일본어 LINE 문의 67건에 문의→예약 전환율 30%를 곱한 값입니다. 콘텐츠는
+문의를 늘리는 일을, 병원 CS는 문의를 예약으로 바꾸는 일을 맡습니다. 둘
+중 하나만으로는 20건에 닿지 않습니다.</p>
+</blockquote>
+<h2 id="goal-목적">1. 목적</h2>
+<p>결론: 11월 콘텐츠는 일본 고객이 “상담해 보고 싶다”에서 “실제로 방문할
+수 있겠다”로 넘어가게 만드는 데 집중합니다.</p>
+<p>이 표는 이번 발행의 목적 3가지와 그 목적을 이루는 수단을 정리한
+것입니다.</p>
+<div class="tw"><table>
+<colgroup>
+<col />
+<col />
+<col />
+</colgroup>
+<thead>
+<tr class="header">
+<th>목적</th>
+<th>왜 필요한가</th>
+<th>11월 수단</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>① 방문 확신 → LINE 상담</td>
+<td>상담에 관심이 있어도 요금·언어·일정·당일 흐름을 몰라 멈추는 고객이
+있음</td>
+<td>6가지 「모르겠다」를 한 편에 하나씩 풀어 줌 (C22, C24~C30)</td>
+</tr>
+<tr class="even">
+<td>② 새 영상 소재 확보</td>
+<td>같은 영상이 오래 반복되면 반응이 떨어짐</td>
+<td>병원 기존 영상을 다시 편집한 릴스 6편</td>
+</tr>
+<tr class="odd">
+<td>③ 어떤 콘텐츠가 상담을 만들었는지 기록</td>
+<td>문의가 어디서 왔는지 모르면 다음 달 콘텐츠를 고를 수 없음</td>
+<td>X·note·인스타그램 링크에 출처 표시, 문의 접수 때 유입경로 기록</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="goal-목표">2. 목표</h2>
+<h3 id="goal-결과-목표-11월-말-판단">2.1 결과 목표 (11월 말 판단)</h3>
+<p>결론: 예약 20건은 문의를 늘리는 일과 전환율을 올리는 일을 함께 해야
+닿는 숫자입니다.</p>
+<p>이 표는 11월 말에 이번 발행이 성공했는지 판단하는 기준입니다.</p>
+<div class="tw"><table>
+<colgroup>
+<col />
+<col />
+<col />
+</colgroup>
+<thead>
+<tr class="header">
+<th>목표</th>
+<th>11월 목표</th>
+<th>계산·측정 방법</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>예약·시술</strong></td>
+<td><strong>최소 20건</strong></td>
+<td>문의 67건 × 전환율 30%</td>
+</tr>
+<tr class="even">
+<td>일본어 LINE 문의</td>
+<td>67건 이상</td>
+<td>병원 CS 기록</td>
+</tr>
+<tr class="odd">
+<td>문의 → 예약 전환율</td>
+<td>30% 이상</td>
+<td>예약 ÷ 문의</td>
+</tr>
+<tr class="even">
+<td>유입경로 기록률</td>
+<td>70% 이상</td>
+<td>문의마다 「어디서 보고 오셨는지」 기록한 비율</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>예를 들어 문의만 67건으로 늘고 전환율이 20%에 머물면 예약은
+13건입니다. 반대로 전환율만 30%로 오르고 문의가 늘지 않으면 11건입니다.
+두 가지가 함께 올라야 20건이 됩니다.</li>
+</ul>
+<h3 id="goal-콘텐츠-목표-매주-확인">2.2 콘텐츠 목표 (매주 확인)</h3>
+<p>결론: 콘텐츠가 직접 책임지는 숫자는 「콘텐츠를 보고 들어온 LINE 문의
+10건」입니다. 나머지는 그 10건을 만들기 위한 중간 지표입니다.</p>
+<p>이 표는 콘텐츠가 제 역할을 하는지 주마다 확인하는 기준입니다.</p>
+<div class="tw"><table>
+<colgroup>
+<col />
+<col />
+<col />
+</colgroup>
+<thead>
+<tr class="header">
+<th>목표</th>
+<th>11월 목표</th>
+<th>확인 시점</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>콘텐츠 링크를 거친 LINE 문의</td>
+<td>10건 이상</td>
+<td>매주</td>
+</tr>
+<tr class="even">
+<td>피드 저장률</td>
+<td>첫 주(C24·C22·C25) 평균을 기준선으로, 이후 편이 그 이상</td>
+<td>11/15 기준선 확정</td>
+</tr>
+<tr class="odd">
+<td>릴스 끝까지 보기 비율</td>
+<td>편당 50% 이상 (3초 이상 본 사람 중)</td>
+<td>게시 후 7일</td>
+</tr>
+<tr class="even">
+<td>고객 질문 모으기</td>
+<td>11/25까지 12건 이상 (C30 「자주 듣는 질문」 재료)</td>
+<td>11/25</td>
+</tr>
+<tr class="odd">
+<td>주간 예약 진행</td>
+<td>11/15까지 누적 9건</td>
+<td>11/15 중간 점검</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="goal-병원-cs가-함께-해-주실-일">3. 병원 CS가 함께 해 주실
+일</h2>
+<p>결론: 전환율 30%는 병원 응대에서 만들어집니다. 아래 네 가지를 11월 한
+달 동안 함께 지켜 주시면 됩니다.</p>
+<ol type="1">
+<li><strong>휴진일·당일 예약 가능 여부를 첫 답변에 고정 문구로
+넣기.</strong> 진료일이 맞지 않아 끝나는 문의를 0건으로 만드는 것이
+목표입니다.</li>
+<li><strong>가격 안내 뒤 24시간 동안 답이 없으면 한 번 다시
+연락하기.</strong> 이때 C25 「料金は、どこまで含まれている？」 게시물
+링크를 함께 보내면 좋습니다.</li>
+<li><strong>영업시간에는 1시간 안에 첫 답변하기.</strong></li>
+<li><strong>문의마다 유입경로를 기록하기.</strong> 「인스타그램 / X /
+note / 광고 / 지인 / 기타」 중 하나로 남겨 주시면 됩니다.</li>
+</ol></article></section><section class="pane" id="pane-sch" data-k="sch" role="tabpanel"><nav class="toc" aria-label="목차"><details open><summary>목차</summary><ul>
 <li><a href="#sch-월-발행-일정-1191130"
 id="sch-toc-월-발행-일정-1191130">11월 발행 일정 — 11/9~11/30</a>
 <ul>
@@ -927,7 +1093,7 @@ B</h3>
 <li>N05 본문의 「当日の日本語対応」 빈칸은 병원 확인(11/13) 후
 채웁니다.</li>
 </ul></article></section>
-<footer class="foot">세린의원 · 담당 메디힘 · 생성 2026-11-09 14:47</footer>
+<footer class="foot">세린의원 · 담당 메디힘 · 생성 2026-11-09 15:14</footer>
 <div id="lb" role="dialog" aria-label="이미지 크게 보기"><button class="x" type="button">닫기</button><button class="nav prev" type="button" aria-label="이전">‹</button><img alt=""><button class="nav next" type="button" aria-label="다음">›</button><div class="cap"></div></div>
 <button class="ib" id="totop" type="button">맨 위로</button>
 <script>
