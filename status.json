@@ -1,298 +1,307 @@
 {
-  "_안내": "발행이 끝난 항목의 done을 true로 바꾸고 date(YYYY-MM-DD)와 url(게시물 주소, 선택)을 적은 뒤 Commit하면 1~2분 뒤 페이지에 「발행 완료」로 표시됩니다. 병원 확인이 끝난 요청은 confirmed에서 같은 방법으로 표시합니다.",
-  "updated": "2026-11-11",
-  "published": {
-    "C24": {
-      "done": true,
-      "date": "2026-11-11",
-      "url": "https://www.instagram.com/sereneclinic_jp/"
-    },
-    "C24 X": {
-      "done": true,
-      "date": "2026-11-11",
-      "url": ""
-    },
-    "C22 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C24 D0": {
-      "done": true,
-      "date": "2026-11-11",
-      "url": ""
-    },
-    "C22": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C22 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C22 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "RL06": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C25 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C25": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C25 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C25 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "皮膚の日": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "N02": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "첫방문 안내": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "RL03": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "X04": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "X05": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C26 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C26": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C26 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C26 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "RL01": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "N04": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "3連休 안내": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C27 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C27": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C27 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C27 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "RL04": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "X06": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "X03": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C28 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C28": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C28 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C28 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "RL05": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C29 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C29": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C29 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C29 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "年末年始": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "N05": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "RL02": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C30 D-1": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C30": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C30 X": {
-      "done": false,
-      "date": "",
-      "url": ""
-    },
-    "C30 D0": {
-      "done": false,
-      "date": "",
-      "url": ""
-    }
+ "_안내": "발행이 끝난 항목의 done을 true로 바꾸고 date(YYYY-MM-DD)와 url(게시물 주소, 선택)을 적은 뒤 Commit하면 1~2분 뒤 페이지에 「발행 완료」로 표시됩니다. 병원 확인이 끝난 요청은 confirmed에서 같은 방법으로 표시합니다.",
+ "updated": "2026-11-11",
+ "published": {
+  "C24": {
+   "done": true,
+   "date": "2026-11-11",
+   "url": "https://www.instagram.com/sereneclinic_jp/",
+   "note": "계획 11/9 → 11/11 게시"
   },
-  "confirmed": {
-    "R01": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R02": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R03": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R04": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R05": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R06": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R07": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R08": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R09": {
-      "done": false,
-      "date": "",
-      "note": ""
-    },
-    "R10": {
-      "done": false,
-      "date": "",
-      "note": ""
-    }
+  "C24 X": {
+   "done": true,
+   "date": "2026-11-11",
+   "url": "",
+   "note": ""
+  },
+  "C22 D-1": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
+  },
+  "C24 D0": {
+   "done": true,
+   "date": "2026-11-11",
+   "url": "",
+   "note": "스토리 2장 · 설문 스티커(料金/言葉/当日/帰国後)"
+  },
+  "C22": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
+  },
+  "C22 X": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
+  },
+  "C22 D0": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
+  },
+  "RL06": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "최종 편집본 대기 · 게시일 재조정 예정"
+  },
+  "C25 D-1": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
+  },
+  "C25": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C25 X": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C25 D0": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "皮膚の日": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "N02": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "첫방문 안내": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "RL03": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "X04": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "X05": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C26 D-1": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C26": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C26 X": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C26 D0": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "RL01": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "N04": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "3連休 안내": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C27 D-1": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C27": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C27 X": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C27 D0": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "RL04": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "X06": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "X03": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C28 D-1": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C28": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C28 X": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C28 D0": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "RL05": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C29 D-1": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C29": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C29 X": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C29 D0": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "年末年始": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "N05": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "RL02": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C30 D-1": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C30": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C30 X": {
+   "done": false,
+   "date": "",
+   "url": ""
+  },
+  "C30 D0": {
+   "done": false,
+   "date": "",
+   "url": ""
   }
+ },
+ "confirmed": {
+  "R01": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R02": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R03": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R04": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R05": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R06": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R07": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R08": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R09": {
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "R10": {
+   "done": false,
+   "date": "",
+   "note": ""
+  }
+ }
 }
