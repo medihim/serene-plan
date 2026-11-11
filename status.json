@@ -14,72 +14,40 @@
    "url": "",
    "note": ""
   },
-  "C22 D-1": {
-   "done": false,
-   "date": "",
-   "url": "",
-   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
-  },
   "C24 D0": {
    "done": true,
    "date": "2026-11-11",
    "url": "",
    "note": "스토리 2장 · 설문 스티커(料金/言葉/当日/帰国後)"
   },
-  "C22": {
-   "done": false,
-   "date": "",
-   "url": "",
-   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
-  },
-  "C22 X": {
-   "done": false,
-   "date": "",
-   "url": "",
-   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
-  },
-  "C22 D0": {
-   "done": false,
-   "date": "",
-   "url": "",
-   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
-  },
-  "RL06": {
-   "done": false,
-   "date": "",
-   "url": "",
-   "note": "최종 편집본 대기 · 게시일 재조정 예정"
-  },
   "C25 D-1": {
    "done": false,
    "date": "",
    "url": "",
-   "note": "디자인 최종본 대기 · 게시일 재조정 예정"
-  },
-  "C25": {
-   "done": false,
-   "date": "",
-   "url": ""
-  },
-  "C25 X": {
-   "done": false,
-   "date": "",
-   "url": ""
-  },
-  "C25 D0": {
-   "done": false,
-   "date": "",
-   "url": ""
+   "note": "일정 변경 11/11 → 11/12"
   },
   "皮膚の日": {
    "done": false,
    "date": "",
    "url": ""
   },
-  "N02": {
+  "C25": {
    "done": false,
    "date": "",
-   "url": ""
+   "url": "",
+   "note": "일정 변경 11/12 → 11/13 · 목차 1번(料金)"
+  },
+  "C25 X": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "C25와 같은 날"
+  },
+  "C25 D0": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "일정 변경 11/12 → 11/13"
   },
   "첫방문 안내": {
    "done": false,
@@ -96,40 +64,69 @@
    "date": "",
    "url": ""
   },
+  "C26 D-1": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "일정 변경 11/16 → 11/14"
+  },
+  "C26": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "일정 변경 11/17 → 11/15 · 목차 2번(言葉)"
+  },
+  "C26 X": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "C26과 같은 날"
+  },
+  "C26 D0": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "일정 변경 11/17 → 11/15"
+  },
   "X05": {
    "done": false,
    "date": "",
    "url": ""
   },
-  "C26 D-1": {
+  "C22 D-1": {
    "done": false,
    "date": "",
-   "url": ""
+   "url": "",
+   "note": "일정 변경 11/9 → 11/16"
   },
-  "C26": {
+  "C22": {
    "done": false,
    "date": "",
-   "url": ""
+   "url": "",
+   "note": "일정 변경 11/10 → 11/17 · 목차 3번(日程)"
   },
-  "C26 X": {
+  "C22 X": {
    "done": false,
    "date": "",
-   "url": ""
+   "url": "",
+   "note": "C22와 같은 날"
   },
-  "C26 D0": {
+  "C22 D0": {
    "done": false,
    "date": "",
-   "url": ""
+   "url": "",
+   "note": "일정 변경 11/10 → 11/17"
   },
   "RL01": {
    "done": false,
    "date": "",
    "url": ""
   },
-  "N04": {
+  "N02": {
    "done": false,
    "date": "",
-   "url": ""
+   "url": "",
+   "note": "일정 변경 11/13 → 11/18"
   },
   "3連休 안내": {
    "done": false,
@@ -155,6 +152,18 @@
    "done": false,
    "date": "",
    "url": ""
+  },
+  "RL06": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "일정 변경 11/11 → 11/20 · 원본 영상 11/16까지 필요"
+  },
+  "N04": {
+   "done": false,
+   "date": "",
+   "url": "",
+   "note": "일정 변경 11/18 → 11/20 (선택)"
   },
   "RL04": {
    "done": false,
