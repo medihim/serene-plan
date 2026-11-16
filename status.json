@@ -1,6 +1,6 @@
 {
  "_안내": "발행이 끝난 항목의 done을 true로 바꾸고 date(YYYY-MM-DD)와 url(게시물 주소, 선택)을 적은 뒤 Commit하면 1~2분 뒤 페이지에 「발행 완료」로 표시됩니다. 병원 확인이 끝난 요청은 confirmed에서 같은 방법으로 표시합니다.",
- "updated": "2026-11-13",
+ "updated": "2026-11-16",
  "published": {
   "C24": {
    "done": true,
@@ -78,10 +78,10 @@
    "note": "일정 변경 11/17 → 11/15 · 목차 2번(言葉)"
   },
   "C26 X": {
-   "done": false,
-   "date": "",
-   "url": "",
-   "note": "C26과 같은 날"
+   "done": true,
+   "date": "2026-11-16",
+   "url": "https://x.com/sereneclinicjp/status/2122339479180747141",
+   "note": "계획 11/15 20:00 → 11/16 23:42 게시 · #韓国美容医療 #韓国皮膚科"
   },
   "C26 D0": {
    "done": false,
